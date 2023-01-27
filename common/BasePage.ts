@@ -179,8 +179,21 @@ export class BasePage {
         }
     }
 
-    public async switchToNewTab() {
+    public async getTableCellValue(tableLocaor: string, rowText: string, columnName: string) {
+        const row = this.page.locator(`${tableLocaor} tbody tr`, { hasText: rowText });
+        const columnHeader = await this.getTableColumnIndex(tableLocaor, columnName);
+        const cellValue = row.locator('td').nth(columnHeader);
+        return await cellValue.innerText();
+    }
 
+    public async getTableColumnIndex(columnsLocator: string, columnName: string) {
+        const columns = await this.page.$$(`${columnsLocator} thead th`);
+        for (let i = 0; i < columns.length; i++) {
+            if (await columns[i].innerText() === columnName) {
+                return i;
+            }
+        }
+        throw new Error(`The column ${columnName} was not found`)
     }
 }
 
