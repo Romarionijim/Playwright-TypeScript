@@ -1,0 +1,83 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.5808150000572203">
+<testsuite name="tests\api\Api.spec.ts" timestamp="1675021636573" hostname="" tests="1" failures="0" skipped="0" time="0.643" errors="0">
+<testcase name="this is an API test fetch data that was just created" classname="[Chrome Browser] › tests\api\Api.spec.ts › this is an API test › fetch data that was just created" time="0.643">
+<system-out>
+<![CDATA[[
+  {
+    id: [33m194297[39m,
+    name: [32m'Rohit Agarwal'[39m,
+    email: [32m'rohit_agarwal@bartoletti-stamm.name'[39m,
+    gender: [32m'female'[39m,
+    status: [32m'inactive'[39m
+  },
+  {
+    id: [33m194211[39m,
+    name: [32m'Narayan Gill V'[39m,
+    email: [32m'narayan_v_gill@rippin.info'[39m,
+    gender: [32m'female'[39m,
+    status: [32m'active'[39m
+  },
+  {
+    id: [33m194136[39m,
+    name: [32m'Daksha Ahuja'[39m,
+    email: [32m'ahuja_daksha@keeling.info'[39m,
+    gender: [32m'female'[39m,
+    status: [32m'inactive'[39m
+  },
+  {
+    id: [33m194135[39m,
+    name: [32m'Kamala Abbott'[39m,
+    email: [32m'abbott_kamala@veum-oconnell.net'[39m,
+    gender: [32m'female'[39m,
+    status: [32m'active'[39m
+  },
+  {
+    id: [33m194134[39m,
+    name: [32m'Vijay Pothuvaal'[39m,
+    email: [32m'pothuvaal_vijay@trantow.co'[39m,
+    gender: [32m'male'[39m,
+    status: [32m'active'[39m
+  },
+  {
+    id: [33m194133[39m,
+    name: [32m'Jaya Dhawan'[39m,
+    email: [32m'dhawan_jaya@purdy.co'[39m,
+    gender: [32m'male'[39m,
+    status: [32m'active'[39m
+  },
+  {
+    id: [33m194132[39m,
+    name: [32m'Swami Dwivedi'[39m,
+    email: [32m'swami_dwivedi@johnson.co'[39m,
+    gender: [32m'female'[39m,
+    status: [32m'inactive'[39m
+  },
+  {
+    id: [33m194131[39m,
+    name: [32m'Trilokesh Saini'[39m,
+    email: [32m'saini_trilokesh@hand.co'[39m,
+    gender: [32m'male'[39m,
+    status: [32m'inactive'[39m
+  },
+  {
+    id: [33m194130[39m,
+    name: [32m'Aagam Adiga DVM'[39m,
+    email: [32m'dvm_aagam_adiga@watsica-ferry.info'[39m,
+    gender: [32m'male'[39m,
+    status: [32m'active'[39m
+  },
+  {
+    id: [33m194129[39m,
+    name: [32m'Chidaatma Nair'[39m,
+    email: [32m'nair_chidaatma@nikolaus.biz'[39m,
+    gender: [32m'female'[39m,
+    status: [32m'inactive'[39m
+  }
+]
+
+[[ATTACHMENT|test-results\tests-api-Api-this-is-an-API-test-fetch-data-that-was-just-created-Chrome-Browser\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
